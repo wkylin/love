@@ -99,32 +99,32 @@ svg {
 
 /* ---------- cube styles ------------- */
 .cube > .one {
-  opacity: 0.5;
+  opacity: 1;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px);
 }
 
 .cube > .two {
-  opacity: 0.5;
+  opacity: 1;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) translateZ(100px);
 }
 
 .cube > .three {
-  opacity: 0.5;
+  opacity: 0;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px);
 }
 
 .cube > .four {
-  opacity: 0.5;
+  opacity: 1;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px);
 }
 
 .cube > .five {
-  opacity: 0.5;
+  opacity: 0;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px);
 }
 
 .cube > .six {
-  opacity: 0.5;
+  opacity: 1;
   -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px)
     rotate(180deg);
 }
