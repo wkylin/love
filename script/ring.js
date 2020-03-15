@@ -23,6 +23,7 @@ function toggleClassName(inElement, inClassName) {
 }
 
 function toggleShape() {
+    
     var shape = document.getElementById("shape");
     if (hasClassName(shape, "ring")) {
         removeClassName(shape, "ring");
@@ -32,7 +33,9 @@ function toggleShape() {
         addClassName(shape, "ring");
     }
 
+
     // Move the ring back in Z so it's not so in-your-face.
+
     var stage = document.getElementById("stage");
     if (hasClassName(shape, "ring"))
         stage.style.webkitTransform = "translateZ(-200px)";
